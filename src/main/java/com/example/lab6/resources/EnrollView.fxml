@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            prefHeight="400.0" prefWidth="600.0">
+    <children>
+        <Label fx:id="enrollTitleLabel" layoutX="50.0" layoutY="200.0">
+
+        </Label>
+        <HBox fx:id="hbox">
+
+        <ChoiceBox fx:id="chooseCourse" layoutX="50.0" layoutY="50.0" >
+
+        </ChoiceBox>
+        </HBox>
+
+        <Button fx:id="submitButton" layoutX="50.0" layoutY="250.0" text="Enroll">
+
+        </Button>
+
+        <Label fx:id="responseLabel" layoutX="50.0" layoutY="300.0">
+
+        </Label>
+    </children>
+
+</AnchorPane>
+
